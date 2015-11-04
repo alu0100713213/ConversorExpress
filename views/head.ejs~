@@ -2,8 +2,6 @@
     <title>Convertidor de temperatura</title>
 <link href="../static/global.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="../static/temperature.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/global.css" rel="stylesheet">
 

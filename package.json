@@ -1,0 +1,21 @@
+{
+  "name": "ConversorExpressJS",
+  "version": "0.0.0",
+  "description": "Conversor de Temperatura en ExpressJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alu0100713213/ConversorExpressJS"
+  },
+  "author": "Juan Ignacio Hita Manso",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/alu0100713213/ConversorExpressJS/issues"
+  },
+  "dependencies": {
+    "express": "~4.13.3"
+  }
+}

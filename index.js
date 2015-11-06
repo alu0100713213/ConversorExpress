@@ -17,9 +17,12 @@ app.get('/', function(req, res){
 });
 
 app.post('/', function(req, res){
-	var userName = req.body.userName;
-	res.render('greet', {userName: userName, title: 'greet'});
+	var temp = new Temperatura();
+	var respuesta = temp.convertir(req.body.original);
+	res.render('pages/index',{title:"Conversor de Temperatura ExpressJS", result: respuesta});
 });
 app.listen(app.get('port'), function() {
 console.log("Node app is running at localhost:" + app.get('port'));
 });
+
+

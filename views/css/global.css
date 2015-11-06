@@ -1,0 +1,51 @@
+html {
+    background: url(fondo.jpg) no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+	font: 100% Futura Md BT;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	font-size: 30px;
+}
+
+h4 {
+font-size:1em;
+display: inline;
+font-weight:normal;
+
+}
+
+#converted  {
+	color: black;
+	font-weight: bold;
+	font-size:20px;
+
+	}     /* Calculated values in bold */
+
+.posicion{
+   margin: 0 auto;
+}
+
+.divsalida{
+  width: 40%;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #81BEF7;
+  text-align: center;
+   margin: 0 auto;
+
+background-color: #81BEF7; position:absolute; z-index:-1; top:0; left:0; right:
+0; bottom:0; opacity:0.2;
+-webkit-box-shadow: 2px 2px 5px #999;
+-moz-box-shadow: 2px 2px 5px #999;
+}
